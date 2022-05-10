@@ -1,0 +1,22 @@
+
+#name-header {
+    border-radius: 5px;
+}
+
+.nav-option {
+    border-radius: 5px;
+}
+
+#about-me-header {
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+#about-me-image {
+    border-radius: 5px;
+    border: 1px solid;
+    float: left;
+    padding: 0px 0 0 0;
+    margin: 5px 20px 0 0;
+}

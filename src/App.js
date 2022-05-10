@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
+import About from './components/About';
 import Footer from './components/Footer';
 import './style-google.css';
 import './style.css';
+import './style-custom.css';
 
 
 function App() {
@@ -10,8 +12,7 @@ function App() {
     <div>
       <Header></Header>
       <main class='container my-5'>
-        <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h2>
-        <p>I am a web developer.</p>
+        <About></About>
       </main>
       <Footer></Footer>
     </div>
