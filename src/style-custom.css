@@ -13,13 +13,13 @@
     color: var(--secondary);
 }
 
-#about-me-header {
+#about-header, #portfolio-header, #contact-header,#resume-header {
     border-radius: 5px;
     padding-left: 20px;
     width: 100%;
 }
 
-#about-me-image {
+#about-image {
     border-radius: 5px;
     border: 1px solid;
     float: left;
