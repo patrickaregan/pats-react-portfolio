@@ -50,3 +50,34 @@ input, textarea {
 .error-message {
     color: red;
 }
+
+#gitHub-profile-image {
+    height: 35px;
+    width: 75px;
+    object-fit: cover;
+}
+
+#gitHub-octocat-image {
+    height: 39px;
+    width: 39px;
+    object-fit: cover;
+}
+
+.gitHub-spacer {
+    margin: 7px;
+}
+
+#linkedIn-profile-image {
+    height: 30px;
+    margin-bottom: 3px;
+}
+
+.linkedIn-spacer {
+    margin: 5px;
+}
+
+#stackOverflow-profile-image {
+    height: 50px;
+    margin-bottom: 2px;
+}
+
