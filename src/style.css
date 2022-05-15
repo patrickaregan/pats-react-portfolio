@@ -867,6 +867,7 @@ nav a:hover {
   .col-sm-12 {
     flex: 0 0 100%;
   }
+
 }
 
 /* col-md */
@@ -918,6 +919,7 @@ nav a:hover {
   .col-md-12 {
     flex: 0 0 100%;
   }
+
 }
 
 /* col-lg */
@@ -978,6 +980,7 @@ nav a:hover {
   .col-lg-12 {
     flex: 0 0 100%;
   }
+
 }
 
 /* col-xl */
@@ -1029,4 +1032,5 @@ nav a:hover {
   .col-xl-12 {
     flex: 0 0 100%;
   }
+
 }

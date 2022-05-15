@@ -9,12 +9,12 @@ function Portfolio(props) {
         <section className='my-3' id="resume">
             <h2 id="portfolio-header" className='text-dark bg-primary p-2 display-inline-block'>Portfolio</h2>
             <div className="portfolio-container">
-                <div className='featured-project-container'>
+                <div className='project-container'>
                     <Project
                         currentPage={currentPage}
                         setCurrentPage={setCurrentPage}
                         projectTitle="Tech Blog"
-                        technologiesUsed = "HTML, CSS, JavaScript, Node, Express, Sequelize, MySQL, Bcrypt, Sessions, Insomnia"
+                        technologiesUsed = "Node, Express, Sequelize, MySQL, Bcrypt, Sessions"
                         applicationUrl = "https://pats-tech-blog.herokuapp.com/"
                         repositoryUrl = "https://github.com/patrickaregan/pats-tech-blog"
                         imageUrl="tech-blog.png"
@@ -64,7 +64,7 @@ function Portfolio(props) {
                         imageUrl="password-generator.png"
                     ></Project>
                 </div>
-                <div className='featured-project-container'>
+                <div className='project-container'>
                     <Project
                         currentPage={currentPage}
                         setCurrentPage={setCurrentPage}

@@ -24,7 +24,7 @@ function App() {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       ></Header>
-      <main className='container my-5'>
+      <main className='container my-4'>
         {currentPage === 'about' &&
           <About></About>
         }

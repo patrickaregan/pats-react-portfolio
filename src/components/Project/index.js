@@ -40,11 +40,13 @@ function Project(props) {
         <div>
             <div>
                 <div className='project-info'>
-                    <a href={applicationUrl}>{projectTitle}</a><br />
+                    <a href={applicationUrl} target="_blank" rel="noreferrer">{projectTitle}</a><br />
                     {technologiesUsed}<br />
-                    <a href={repositoryUrl}>View repository</a>
+                    <a href={repositoryUrl} target="_blank" rel="noreferrer">View repository</a>
                 </div>
-                <div className={style}>&nbsp;</div>
+                <a href={applicationUrl} target="_blank" rel="noreferrer">
+                    <div className={style}>&nbsp;</div>
+                </a>
             </div>
             
         </div>

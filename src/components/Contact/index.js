@@ -61,6 +61,7 @@ function Contact() {
                             <tr>
                                 <td><label htmlFor="name">Name:</label></td>
                                 <td><input type="text" name="name" defaultValue={name} onBlur={handleChange} /></td>
+                                <td rowSpan={3} className="text-center">The form to the left is not finished yet so for now just email me at <a href="mailto:patrickaregan@gmail.com" target={'_blank'}>patrickaregan@gmail.com</a></td>
                             </tr>
                             <tr>
                                 <td><label htmlFor="email">Email:</label></td>
