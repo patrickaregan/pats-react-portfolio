@@ -51,9 +51,10 @@ input, textarea {
     color: red;
 }
 
+/* Footer */
 #gitHub-profile-image {
     height: 35px;
-    width: 75px;
+    width: 76px;
     object-fit: cover;
 }
 
@@ -80,4 +81,86 @@ input, textarea {
     height: 50px;
     margin-bottom: 2px;
 }
+
+/* Portfolio */
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+.featured-project-container {
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 10px 5px;
+    padding: 0px;
+    width: 1190px;
+}
+
+.project-container {
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 10px 5px;
+    padding: 0px;
+    width: 580px;
+}
+
+.project-info {
+    background-color: var(--dark);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.project-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.project-info a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.tech-blog {
+    background-image: url("./assets/images/tech-blog.png");
+    background-size: cover;
+    height: 275px;
+}
+
+.note-taker {
+    background-image: url("./assets/images/note-taker.png");
+    background-size: cover;
+    height: 170px;
+}
+
+.code-quiz {
+    background-image: url("./assets/images/code-quiz.png");
+    background-size: cover;
+    height: 170px;
+}
+
+.workday-scheduler {
+    background-image: url("./assets/images/workday-scheduler.png");
+    background-size: cover;
+    height: 170px;
+}
+
+.password-generator {
+    background-image: url("./assets/images/password-generator.png");
+    background-size: cover;
+    height: 170px;
+}
+
+.run-buddy {
+    background-image: url("./assets/images/runbuddy.png");
+    background-size: cover;
+    height: 275px;
+}
+
+
+
 

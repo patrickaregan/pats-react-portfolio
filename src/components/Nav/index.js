@@ -4,8 +4,6 @@ function Nav(props) {
 
     const { currentPage, setCurrentPage } = props;
 
-    console.log("Current Page: " + currentPage);
-
     return (
         <nav className="flex-row">
             {currentPage === 'about'

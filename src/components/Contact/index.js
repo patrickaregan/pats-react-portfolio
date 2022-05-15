@@ -10,7 +10,7 @@ function Contact() {
     const handleSubmit = (event) => {
         event.preventDefault();
         if (!errorMsg) {
-            console.log("Form Data: ", formData);
+            console.log(formData);
         }
     }
 
