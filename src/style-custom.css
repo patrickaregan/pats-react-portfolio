@@ -157,6 +157,10 @@ input, textarea {
     height: 170px;
 }
 
-
+/* Resume */
+.resume-container {
+    margin: 5px;
+    padding: 5px;
+}
 
 
