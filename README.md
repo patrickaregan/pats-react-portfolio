@@ -15,9 +15,9 @@
 
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Screenshot](#screenshot)
   - [License](#license)
   - [Contributing](#contributing)
-  
   - [Questions](#questions)
 
 ## Installation
@@ -27,6 +27,12 @@
 ## Usage
 
   - From the root directory run `npm i` to install dependencies then run `npm start`.
+
+
+## Screenshot
+
+![Pat's React Portfolio](src/assets/images/screenshot.png)
+
 
 ## License
 
