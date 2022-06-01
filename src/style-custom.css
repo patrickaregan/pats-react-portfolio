@@ -157,6 +157,12 @@ input, textarea {
     height: 170px;
 }
 
+.story-team {
+    background-image: url("./assets/images/story-team.png");
+    background-size: cover;
+    height: 170px;
+}
+
 /* Resume */
 .resume-container {
     margin: 5px;

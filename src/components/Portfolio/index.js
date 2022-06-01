@@ -75,6 +75,17 @@ function Portfolio(props) {
                         imageUrl="run-buddy.png"
                     ></Project>
                 </div>
+                <div className='project-container'>
+                    <Project
+                        currentPage={currentPage}
+                        setCurrentPage={setCurrentPage}
+                        projectTitle="Story Team"
+                        technologiesUsed = "MERN Stack, Single Page Application"
+                        applicationUrl = "https://story-team.herokuapp.com/"
+                        repositoryUrl = "https://github.com/patrickaregan/project3-group6"
+                        imageUrl="story-team.png"
+                    ></Project>
+                </div>
             </div>
             
         </section>

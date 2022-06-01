@@ -31,6 +31,9 @@ function Project(props) {
         case "run-buddy.png":
             style = "run-buddy";
             break;
+        case "story-team.png":
+            style = "story-team";
+            break;
         default:
             style = "";
             break;
