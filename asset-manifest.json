@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/pats-react-portfolio/static/css/main.33f2df0a.css",
-    "main.js": "/pats-react-portfolio/static/js/main.cb7a1206.js",
+    "main.css": "/pats-react-portfolio/static/css/main.0ac41f44.css",
+    "main.js": "/pats-react-portfolio/static/js/main.7dc846cb.js",
     "static/js/787.0c49a210.chunk.js": "/pats-react-portfolio/static/js/787.0c49a210.chunk.js",
     "static/media/Octocat.png": "/pats-react-portfolio/static/media/Octocat.363cb5edea582a89c41f.png",
     "static/media/runbuddy.png": "/pats-react-portfolio/static/media/runbuddy.45aab20621ce513664cd.png",
+    "static/media/story-team.png": "/pats-react-portfolio/static/media/story-team.ef3285f9b40c55ef3a07.png",
     "static/media/tech-blog.png": "/pats-react-portfolio/static/media/tech-blog.063e91ba136aa52496ed.png",
     "static/media/workday-scheduler.png": "/pats-react-portfolio/static/media/workday-scheduler.7f2467251253875de7d2.png",
     "static/media/LI-Logo.png": "/pats-react-portfolio/static/media/LI-Logo.a95afc06831647f5fca2.png",
@@ -15,12 +16,12 @@
     "static/media/GitHub_Logo.png": "/pats-react-portfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
     "static/media/code-quiz.png": "/pats-react-portfolio/static/media/code-quiz.53c49f495a6e7926472c.png",
     "index.html": "/pats-react-portfolio/index.html",
-    "main.33f2df0a.css.map": "/pats-react-portfolio/static/css/main.33f2df0a.css.map",
-    "main.cb7a1206.js.map": "/pats-react-portfolio/static/js/main.cb7a1206.js.map",
+    "main.0ac41f44.css.map": "/pats-react-portfolio/static/css/main.0ac41f44.css.map",
+    "main.7dc846cb.js.map": "/pats-react-portfolio/static/js/main.7dc846cb.js.map",
     "787.0c49a210.chunk.js.map": "/pats-react-portfolio/static/js/787.0c49a210.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33f2df0a.css",
-    "static/js/main.cb7a1206.js"
+    "static/css/main.0ac41f44.css",
+    "static/js/main.7dc846cb.js"
   ]
 }
