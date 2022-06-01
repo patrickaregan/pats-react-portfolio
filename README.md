@@ -27,6 +27,7 @@
 ## Usage
 
   - From the root directory run `npm i` to install dependencies then run `npm start`.
+  - View online at https://patrickaregan.github.io/pats-react-portfolio/.
 
 
 ## Screenshot
