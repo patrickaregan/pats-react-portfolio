@@ -55,37 +55,18 @@ function Contact() {
         <section className='my-3' id="contact">
             <h2 id="contact-header" className='text-dark bg-primary p-2 display-inline-block'>Contact</h2>
             <div>
-                <form onSubmit={handleSubmit}>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td><label htmlFor="name">Name:</label></td>
-                                <td><input type="text" name="name" defaultValue={name} onBlur={handleChange} /></td>
-                                <td rowSpan={3} className="text-center">The form to the left is not finished yet so for now just email me at <a href="mailto:patrickaregan@gmail.com" target={'_blank'}>patrickaregan@gmail.com</a> or call me at 512-914-2010.</td>
-                            </tr>
-                            <tr>
-                                <td><label htmlFor="email">Email:</label></td>
-                                <td><input type="email" name="email" defaultValue={email} onBlur={handleChange} /></td>
-                            </tr>
-                            <tr>
-                                <td><label htmlFor="message">Message:</label></td>
-                                <td><textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}></textarea></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>
-                                {errorMsg && (
-                                    <p className="error-message">{errorMsg}</p>
-                                )}
-                                </td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td><button type="submit">Submit</button></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </form>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Email:</td>
+                            <td>patrickaregan@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone:</td>
+                            <td>512-914-2010</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
     )
