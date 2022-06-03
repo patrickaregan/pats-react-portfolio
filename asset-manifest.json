@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pats-react-portfolio/static/css/main.0ac41f44.css",
-    "main.js": "/pats-react-portfolio/static/js/main.b66f41f9.js",
+    "main.js": "/pats-react-portfolio/static/js/main.a31c3dd1.js",
     "static/js/787.0c49a210.chunk.js": "/pats-react-portfolio/static/js/787.0c49a210.chunk.js",
     "static/media/Octocat.png": "/pats-react-portfolio/static/media/Octocat.363cb5edea582a89c41f.png",
     "static/media/runbuddy.png": "/pats-react-portfolio/static/media/runbuddy.45aab20621ce513664cd.png",
@@ -17,11 +17,11 @@
     "static/media/code-quiz.png": "/pats-react-portfolio/static/media/code-quiz.53c49f495a6e7926472c.png",
     "index.html": "/pats-react-portfolio/index.html",
     "main.0ac41f44.css.map": "/pats-react-portfolio/static/css/main.0ac41f44.css.map",
-    "main.b66f41f9.js.map": "/pats-react-portfolio/static/js/main.b66f41f9.js.map",
+    "main.a31c3dd1.js.map": "/pats-react-portfolio/static/js/main.a31c3dd1.js.map",
     "787.0c49a210.chunk.js.map": "/pats-react-portfolio/static/js/787.0c49a210.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ac41f44.css",
-    "static/js/main.b66f41f9.js"
+    "static/js/main.a31c3dd1.js"
   ]
 }
