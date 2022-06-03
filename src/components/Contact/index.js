@@ -1,55 +1,6 @@
-import React, { useState } from 'react';
-import { emailIsValid } from '../../utils/formValidation';
+import React from 'react';
 
-function Contact() {
-
-    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-    const [ errorMsg, setErrorMsg] = useState('');
-    const { name, email, message } = formData;
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        if (!errorMsg) {
-            console.log(formData);
-        }
-    }
-
-    const handleChange = (event) => {
-
-        // validate name field
-        if (event.target.name === 'name') {
-            const targetValue = event.target.value.trim();
-            if (targetValue.length < 1) {
-                setErrorMsg("Name cannot be empty!");
-            } else {
-                setErrorMsg("");
-            }
-        }
-
-        // validate email field
-        if (event.target.name === 'email') {
-            if (!emailIsValid(event.target.value)) {
-                setErrorMsg("Email is not valid!");
-            } else {
-                setErrorMsg("");
-            }
-        }
-
-        // validate message field
-        if (event.target.name === 'message') {
-            const targetValue = event.target.value.trim();
-            if (targetValue.length < 1) {
-                setErrorMsg("Message is required!");
-            } else {
-                setErrorMsg("");
-            }
-        }
-
-        // set form data
-        if (!errorMsg) {
-            setFormData({...FormData, [event.target.name]: event.target.value });
-        }
-    }
+function Contact() {   
 
     return (
         <section className='my-3' id="contact">
