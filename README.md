@@ -13,6 +13,7 @@
 
 ## Table of Contents
 
+  - [Deployment](#deployment)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Screenshot](#screenshot)
@@ -21,7 +22,7 @@
   - [Questions](#questions)
 
 ## Deployment
-  - To deploy updates run `npm run deploy` from terminal.
+  - To deploy updates make sure you have pushed changes then run `npm run deploy` from terminal.
 
 ## Installation
 
