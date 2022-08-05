@@ -20,6 +20,9 @@
   - [Contributing](#contributing)
   - [Questions](#questions)
 
+## Deployment
+  - To deploy updates run `npm run deploy` from terminal.
+
 ## Installation
 
   - Clone the project from https://github.com/patrickaregan/pats-react-portfolio.git.
